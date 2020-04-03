@@ -137,3 +137,5 @@ function initOptions (options) {
     if (options.sColor === undefined) options.sColor = 'black';            
     return options;
 }
+
+const d = new drawTool("myCanvas")
