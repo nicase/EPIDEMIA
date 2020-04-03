@@ -5,9 +5,23 @@ class Subject {
         this.y = y;
     }
 
-    show() {
-        d.circle(d.width/2, d.height/2, 5, {color: "red"});
+    start() {
+        
     }
 
+    show() {
+        d.circle(this.x, this.y, 5, {color: "red"});
+    }
+
+    move() {
+
+    }
+
+    update() {
+        this.move();
+
+
+        this.show();
+    }
 
 }
